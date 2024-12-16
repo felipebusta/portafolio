@@ -1,0 +1,265 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(fondito.jpg) no-repeat center; 
+  background-size: cover;
+  max-height: 80vw;
+  position: relative; 
+  overflow-x: hidden;
+
+}
+
+/* Center website */
+.main {
+  max-width: 100%;
+  margin: auto;
+}
+
+
+.header {
+  overflow: hidden;
+  background-color: #6d2ad8;
+  padding: 5px;;
+  width: 110%;
+}
+
+.nave {
+  background-color: #9369d6;
+  overflow: hidden;
+  width: 110%;
+}
+
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+  margin-left: 100px;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: rgba(36, 36, 36, 0.813);
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+h1 {
+color: aliceblue;
+font-size: 60px;
+
+
+}
+
+h3 {
+  color: aliceblue;
+  margin-left: 30px;
+  font-size: 40px;
+  }
+
+  h2 {
+    color: aliceblue;
+    margin-left: 30px;
+    font-size: 30px;
+ 
+    
+    }
+
+  p {
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 100px;
+    }
+
+    li {
+      color: aliceblue;
+      font-size: 20px;
+
+      }
+
+      .pa {
+  margin: 20px;
+        }
+
+        .rr{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 90px;
+     width: 90px;
+     max-width: 100px;
+     border-radius: 50%;
+                }
+
+                
+                div.gallery img {
+                  width: 100%;
+                  height: auto;
+                }
+                
+                div.desc {
+                  padding: 15px;
+                  text-align: center;
+                }
+                
+                * {
+                  box-sizing: border-box;
+                }
+                
+                .responsive {
+                  padding: 0 6px;
+                  float: left;
+                  width: 24.99999%;
+                  
+                }
+                
+                @media only screen and (max-width: 700px) {
+                  .responsive {
+                    width: 49.99999%;
+                    margin: 6px 0;
+                  }
+                }
+                
+                @media only screen and (max-width: 500px) {
+                  .responsive {
+                    width: 100%;
+                  }
+                }
+                
+                .clearfix:after {
+                  content: "";
+                  display: table;
+                  clear: both;
+                }
+
+                .iman {
+                height: 100px;
+                        }
+
+                        footer {
+                          background-color: black;
+                          color: #fff;
+                          text-align: center;
+                          font-size: 20px;
+                          bottom: 0;
+                          width: 110%; 
+                          margin-top: 40vh;
+                          padding: 20px;
+                          margin-left: 0px ;
+                        }
+                          footer p{
+                          font-size: 20px;
+                          }
+
+                          .contactos {
+                            margin-top: 10px;
+                            font-size: 20px;
+                            
+                          }
+                            
+                            .contactos a {
+                            color: #fff;
+                            text-decoration: none;
+                            margin: 0 10px;
+                            font-size: 20px;
+                            
+                            }
+                            
+                            .contactos a:hover {
+                            color: rgb(179, 0, 255); 
+                            }
+
+   .segui{
+  display: flex;
+  margin-left: 20px;
+    }     
+    
+    
+    .button {
+      border-radius: 4px;
+      background-color: #00000000;
+      border: none;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 15px;
+      padding: 20px;
+      width: 200px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px;
+    }
+
+    .button a {
+    
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 15px;
+text-decoration: none;
+    }
+    
+    .button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    
+    .button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    
+    .button:hover span {
+      padding-right: 25px;
+    }
+    
+    .button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }

@@ -1,0 +1,270 @@
+
+*,html{
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+header{
+    border-top: solid rgb(166, 0, 232) 3px;
+    
+    display: flex;
+    background: rgb(57, 57, 57);
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+}
+.es{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    margin-right: 10vw;
+}
+.espa{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    margin-left: 5vw;
+    margin-right: 30px ;
+}
+.en{
+    margin: 0;
+    padding: 0;
+} 
+.cabeza:hover{
+transition: 0,1.ms;
+    color: rgb(165, 0, 211);
+}
+.cabeza{
+    padding: 0;
+    margin: 0;
+    margin-left: 10vw;
+}
+/*Display flex para el contenido principal*/
+#principal{
+    display: flex;
+}
+
+
+/*Texto introducción*/
+#inicioText{
+    color: white;
+    font-size: 30px;
+
+}
+#inicio{
+    border-top: solid rgb(166, 0, 232) 3px;
+    text-align: center;
+    padding: 10% 20%;
+    background-image: url(fondito.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    background-attachment: fixed;
+}
+
+
+/*Sección lateral de navegación*/
+#navList{
+    border-top: 1px solid rgb(149, 14, 207);
+    padding: 15px 0px 0px 0px;
+    width: 100%;
+    height: 25vh;
+    min-height: 56vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0%;
+}
+#nav{
+    overflow: visible;
+    width: 20%;
+    background-color: rgb(36, 37, 48);
+    margin-top: 0;
+    color: black;
+}
+
+
+/* Links del nav*/
+.comp_index{
+    /*Estilo*/
+    width: 70%;
+    padding: 7px 0px 7px 20px;
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    border-radius: 0px 5px 5px 0;
+    border-left:2px solid transparent;
+    transition:all 0.25s ease;
+}
+span{
+    /* Offset para los links internos */
+    position:absolute; top:-20px;
+}
+.comp_index:hover{
+    /* Animación hover */
+    background-color: rgb(255,255,255,0.15);
+    border-left:2px solid rgb(178, 14, 207);
+    padding-left: 30px;
+}
+
+
+/*Sección principal de componentes*/
+#section_main{
+    border-top: 1px solid rgb(175, 14, 207);
+    background-color: rgb(26, 26, 36);
+    width: 80%;
+}
+
+
+/* Secciones componentes */
+.comp{
+    height: fit-content;
+    display: flex;
+    background-color: rgb(56, 56, 68);
+    margin: 40px 40px 50px 10px;
+    border-radius: 10px;
+    max-height: 300px;
+    overflow: hidden;
+
+}
+.titulo_comp{
+    display: flex;
+    color:white;
+    margin: 1.8vw 0;
+    margin-left: 30px;
+    align-items: center;
+    font-size: 2.3vw;
+}
+.imagen_componente{
+    margin: 20px;
+    object-fit: cover;
+    width: 20vw;
+
+}
+
+.text_componente{
+    border-top:2px solid rgb(207, 14, 140);
+    color: white;
+    text-align: justify;
+    font-size: 1.7vw;
+    padding: 15px 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+.comp_content{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*Quitar color azul subrayado de los hipertextos*/
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Configuración del texto del header */
+h1{ 
+    position:relative; 
+    margin-left:10%;
+    color: rgb(218, 218, 218);
+}
+h2{ 
+    position:relative; 
+    margin-right:40%;
+    color: rgb(218, 218, 218);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size:30px;
+}
+
+/* Footer */
+footer{
+    border-top: solid rgb(207, 14, 185) 2px;
+    background: rgb(48, 48, 48);
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    display: flex;
+}
+
+#foot_sec_1{
+    display: flex;
+
+    margin: 0 13%;
+    padding-left: 10px;
+    padding: 1% 0;
+    border-bottom: 2px solid rgb(207, 14, 152);
+}
+#foot_sec_2{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20%;
+}
+#footer_img_div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.footer_img{
+    width: 40px;
+    margin: 3px 6px;
+    background-blend-mode: hue;
+}
+#nombres{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+#name{
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h3{
+    margin-left: 30px;
+}
+
+.letra {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size:40px;
+  }
+
+  .ima {
+border-radius: 0;
+height: 10vh;
+width: 10vh;
+}
+
+.marge {
+margin-left: 20vh;
+margin-top: 30px;
+display: flex;
+
+    }
+    
+    i{
+        color:  #ffffff;
+        font-size: 20px;
+        margin-left: 40px;
+        margin-top: 30px;
+        display: flex;
+      }

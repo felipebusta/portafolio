@@ -1,0 +1,383 @@
+
+
+body{
+padding: 0;
+margin: 0;
+background: no-repeat;
+width: 90%;
+  }
+
+
+
+
+.header {
+    overflow: hidden;
+    background-color: #000000;
+    width: 105.6%;
+    display:  flex;
+    margin-right: 40px;
+    padding: 30px;
+  }
+  
+  
+  .header a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 10px;
+    border-radius: 4px;
+    font-family: "Jaro", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 70;
+      font-style: normal;
+
+
+  }
+
+  .header h1 {
+    color: rgb(255, 255, 255);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 40px;
+    margin-right: 24rem;
+  }
+  
+
+    .header-right {
+      float: none;
+    }
+  
+    .container {
+        position: relative;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        margin-left: 40px;
+     
+      }
+      
+
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+ .titulo{
+  color:#dd5500;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 20px;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+      }
+
+      .ti{
+        color:#242424;
+        font-size: 20px;
+        text-align: left;
+        margin-left: 20px;
+        text-decoration: none;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      
+      
+            }
+
+
+      .linea{
+      margin-bottom: 30px;
+      margin-top: 30px;
+        border-top: solid rgb(62, 62, 62) 3px;
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+    
+      i{
+        color:  #ffffff;
+        font-size: 35px;
+        margin-left: 40px;
+        margin-top: 30px;
+      }
+
+      .search-form {
+        position: relative;
+        display: flex;
+        border: 2px solid #595959;
+        border-radius: 2rem;
+        background-color: #ffffff;
+        margin-top: 15px;
+        margin-left: 55rem;
+        height: 20px;
+        overflow: hidden;
+        width: 300px;
+    }
+    
+    .search-form input {
+        outline: none;
+        font-family: inherit;
+        border: none;
+        width: 25rem;
+        font-size: 16px;
+        padding: 0 2rem;
+        color: #777;
+        cursor: pointer;
+    }
+    
+    .search-form input::-webkit-search-cancel-button {
+        appearance: none;
+    }
+    
+    .search-form .btn-search {
+        border: none;
+        background-color: var(--primary-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        padding: 1rem;
+    }
+    
+    .btn-search i {
+        font-size: 2rem;
+        color: #000000;
+    }
+
+
+    .top-left {
+        position: absolute;
+        top: 1px;
+        left: 16px;
+      }
+
+      .medio {
+        position: absolute;
+        margin-top: 0px;
+        left: 16px;
+      }
+
+
+      .let{
+ color: #000000;
+ color: #1f1f1f;
+ font-size: 100px;
+ font-family: "Oswald", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: weight;
+ font-style: normal; 
+
+}
+
+.letr{
+color: rgb(255, 255, 255);
+text-decoration: none;
+font-size: 17px;
+font-family: "Oswald", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal; 
+}
+
+
+.boton{
+  background-color: #04AA6D; 
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  border-radius: 20%;
+}
+
+.boton-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.boton-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.boton-group button:hover {
+  background-color: #3e8e41;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #595959;
+  width: 111%;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 19px 16px;
+  text-decoration: none;
+  font-size: 17px;
+margin-left: 40px;
+border-radius: 2%;
+}
+
+.topnav a:hover {
+  background-color: #ff0000;
+  color: rgb(255, 255, 255);
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+.links {
+  color: #000000;
+  text-decoration:none ;
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-left: 35px;
+}
+
+
+
+
+  .image {
+    float: left; /* Hace que la imagen quede flotante a la izquierda */
+    margin-right: 10px; /* Añade espacio entre la imagen y el texto */
+    max-width: 150px; /* Ajusta el tamaño máximo de la imagen */
+    height: 50px;
+    margin-bottom: 30px;
+
+  }
+  .text {
+    overflow: hidden; /* Asegura que el texto no se superponga */
+  }
+h4{
+  color: #000000;
+    text-decoration:none ;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+
+
+  
+  
+  .button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .testos{
+    color: #000000;
+    text-decoration:none ;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+
+  .boton {
+    padding: 15px 20px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #ff6f00;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #ffffff;
+  margin-left: 30px;
+  }
+  
+  .boton:hover {background-color: #ff9900}
+  
+  footer {
+    background-color: rgba(0, 0, 0, 0.74);
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    width: 107%; 
+    padding: 20px;
+
+    
+  }
+    footer p{
+    font-size: 20px;
+    }
+
+    .bu{
+      border-radius: 4px;
+      background-color: #f4511e;
+      border: none;
+      color: #FFFFFF;
+      text-align: center;
+      position: relative;
+      font-size: 15px;
+      padding: 16px;
+      width: 100px;
+      margin-left: 40px;
+      margin: 20px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px;
+    }
